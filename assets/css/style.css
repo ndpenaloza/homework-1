@@ -8,6 +8,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none
+}
+
+p {
+    font-size: 16px;
+}
+/* header div class rules*/
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +51,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* hero div class rules */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,16 +61,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* content div class rules */
 .content {
     width: 75%;
     height: 100%;
@@ -76,6 +69,38 @@ p {
     margin-left: 20px;
 }
 
+/* Floats images in the content div to left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Floats image in the content div to right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* horiseon-service class rules within content div*/
+.horiseon-service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* horiseon-service for images within content div*/
+.horiseon-service img {
+    max-height: 200px;
+}
+/* horiseon-service class rules for h2 within content div*/
+ .horiseon-service h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+} 
+
+/* benefits div class rules*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,41 +111,24 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/**/
+
+/* benefit class rules within benefits div*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/**/
+/* benefit class rules for h3 in benefits div*/
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/**/
+/* benefit class rules for images within benefits div*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/**/
-.horiseon-service {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/**/
-.horiseon-service img {
-    max-height: 200px;
-}
-/**/
- .horiseon-service h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} 
-
+/* footer div class rules*/
 .footer {
     padding: 30px;
     clear: both;
