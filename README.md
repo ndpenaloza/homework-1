@@ -9,7 +9,7 @@ I learned that even though you may make good code that serves it's purpose and f
 Application URL: https://ndpenaloza.github.io/homework-1/
 GitHub Repository URL: https://github.com/ndpenaloza/homework-1
 
-
+![Image of the Horiseon website](assets/images/horiseon.png)
 
 License
 
