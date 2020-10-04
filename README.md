@@ -4,7 +4,7 @@ Description
 
 This is a project where there is existing HTML and CSS files for a website that needs to be refactored. The HTML and CSS files were written with very little comments, which made the code harder to navigate and understand the functions of the classes. Classes were consolidated, rearranged, and commented in order to add organization and increase readibility of the code. The HTML was cleaned up and comments were added to make the structure of the file clearer. Making these changes would benefit making future changes and additions to the website.
 
-I learned that even though you may make good code that serves it's purpose and functions correctly, it is still very important to make good comments, consolidate code, and general clean up for the next developer that touches your code.
+I learned that even though you may write good code that serves it's purpose and functions correctly, it is still very important to make good comments, consolidate code, and general clean up for the next developer that touches your code.
 
 Application URL: https://ndpenaloza.github.io/homework-1/
 GitHub Repository URL: https://github.com/ndpenaloza/homework-1
